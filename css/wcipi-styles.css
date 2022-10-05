@@ -1,0 +1,30 @@
+.iti.wcipi-container input,
+.iti.wcipi-container input[type=text],
+.iti.wcipi-container input[type=tel] {
+    padding-right: 6px !important;
+    padding-left: 52px !important;
+    margin-left: 0 !important;
+}
+
+span.wcipi-label.error-msg {
+    color: red !important;
+}
+
+span.wcipi-label.valid-msg {
+    color: #00C900 !important;
+}
+
+span.wcipi-label.valid-msg,
+span.wcipi-label.error-msg {
+    position: absolute !important;
+    padding-left: 5px !important;
+    width: 100%;
+}
+
+.iti.wcipi-container input.error {
+    border: 1px solid #FF7C7C !important;
+}
+
+span.wcipi-label.hide {
+    display: none !important;
+}
